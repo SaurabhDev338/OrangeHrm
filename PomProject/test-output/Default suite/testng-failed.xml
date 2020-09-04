@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.goibibi.Testcases.VerifyValidLogin">
+        <methods>
+          <include name="checkInvaliduser"/>
+          <include name="BeforeTest"/>
+          <include name="screenshots"/>
+          <include name="Aftertest"/>
+          <include name="checkvaliduser"/>
+        </methods>
+      </class> <!-- com.goibibi.Testcases.VerifyValidLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

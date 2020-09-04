@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18372" started-at="2020-09-03T07:55:00Z" finished-at="2020-09-03T07:55:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18372" started-at="2020-09-03T07:55:00Z" finished-at="2020-09-03T07:55:18Z">
+      <class name="com.goibibi.Testcases.VerifyValidLogin">
+        <test-method status="PASS" signature="BeforeTest()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="BeforeTest" is-config="true" duration-ms="10219" started-at="2020-09-03T13:25:00Z" finished-at="2020-09-03T13:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeTest -->
+        <test-method status="PASS" signature="Login_PanelHeadingText()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="Login_PanelHeadingText" duration-ms="613" started-at="2020-09-03T13:25:10Z" description="Get Login Panel Heading Text" finished-at="2020-09-03T13:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_PanelHeadingText -->
+        <test-method status="PASS" signature="screenshots(org.testng.ITestResult)[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="screenshots" is-config="true" duration-ms="2" started-at="2020-09-03T13:25:11Z" finished-at="2020-09-03T13:25:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Login_PanelHeadingText status=SUCCESS method=VerifyValidLogin.Login_PanelHeadingText()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="checkInvaliduser()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="checkInvaliduser" duration-ms="1510" started-at="2020-09-03T13:25:11Z" description="Enter Invalid username and Password and get Error Massage" finished-at="2020-09-03T13:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkInvaliduser -->
+        <test-method status="PASS" signature="screenshots(org.testng.ITestResult)[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="screenshots" is-config="true" duration-ms="1" started-at="2020-09-03T13:25:12Z" finished-at="2020-09-03T13:25:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkInvaliduser status=SUCCESS method=VerifyValidLogin.checkInvaliduser()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="checkvaliduser()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="checkvaliduser" duration-ms="5279" started-at="2020-09-03T13:25:12Z" description="Enter Valid username and Password" finished-at="2020-09-03T13:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkvaliduser -->
+        <test-method status="PASS" signature="screenshots(org.testng.ITestResult)[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="screenshots" is-config="true" duration-ms="2" started-at="2020-09-03T13:25:18Z" finished-at="2020-09-03T13:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkvaliduser status=SUCCESS method=VerifyValidLogin.checkvaliduser()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="getloginurl()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="getloginurl" duration-ms="25" started-at="2020-09-03T13:25:18Z" description="Get Login Page Url and compare actual with expected url" finished-at="2020-09-03T13:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getloginurl -->
+        <test-method status="PASS" signature="screenshots(org.testng.ITestResult)[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="screenshots" is-config="true" duration-ms="1" started-at="2020-09-03T13:25:18Z" finished-at="2020-09-03T13:25:18Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getloginurl status=SUCCESS method=VerifyValidLogin.getloginurl()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- screenshots -->
+        <test-method status="PASS" signature="Aftertest()[pri:0, instance:com.goibibi.Testcases.VerifyValidLogin@2ac1fdc4]" name="Aftertest" is-config="true" duration-ms="690" started-at="2020-09-03T13:25:18Z" finished-at="2020-09-03T13:25:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Aftertest -->
+      </class> <!-- com.goibibi.Testcases.VerifyValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
